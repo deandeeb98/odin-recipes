@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red span {
+    text-decoration: underline;
+    text-decoration-color: red;  
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.asian {
+    color: rgb(19, 140, 221);
+}
+
+.line1 {
+    font-size: 18px;
+    line-height: 5px;
+}
+
+.ingredients,
+.directions {
+    color: darkslateblue;
+}
+
+.list {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.step1,
+.step2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.order-list1,
+.order-list2 {
+    font-size: 17px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+

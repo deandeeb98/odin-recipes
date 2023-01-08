@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+div.container,
+ul.myUL {
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    text-align: left;
+}
+
+h1 span {
+ background-color: rgba(0, 0, 0);   
+ color: white;
+}
+
+.column {
+    float:left;
+    width: 33.33%;
+    
+}
