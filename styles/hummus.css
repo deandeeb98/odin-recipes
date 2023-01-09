@@ -1,1 +1,49 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 span {
+    text-decoration: underline;
+    text-decoration-color:red;
+    color: white;
+    background-color: black;
+}
+
+.pizza {
+    color: rgb(19, 140, 221);
+}
+
+.line1 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.ingredients,
+.directions {
+    color: darkslateblue;
+}
+
+.list {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.step1,
+.step2,
+.step3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-list {
+    font-size: 17px;
+}
+
+.step3-p {
+    font-size: 17px;
+    line-height: 1px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
